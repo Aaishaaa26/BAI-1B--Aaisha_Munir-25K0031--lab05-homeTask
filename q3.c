@@ -7,7 +7,6 @@ int main(){
 	scanf("%d",&b);
 	printf("Enter c:");
 	scanf("%d",&c);
-	fflush(stdin);
 	discriminant = (b*b) - (4*a*c);
 	if (discriminant == 0){
 		printf("one real root\n");
@@ -19,4 +18,5 @@ int main(){
 		printf("No real roots, imaginary roots\n");
 	}
 	return 0;
+
 }
